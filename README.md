@@ -21,9 +21,6 @@ I'm a passionate software developer with a love for learning and creating. I enj
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
 
-## 📈 GitHub Stats
-
-![Harshit's GitHub stats](https://github-readme-stats.vercel.app/api?username=harshit0019&show_icons=true&theme=radical)
 
 ## 📫 How to reach me
 
