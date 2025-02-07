@@ -28,7 +28,6 @@ I'm a passionate software developer with a love for learning and creating. I enj
 ## 📫 How to reach me
 
 - LinkedIn: [Harshit](https://www.linkedin.com/in/harshit0019/)
-- Twitter: [@harshit0019](https://twitter.com/harshit0019)
 - Email: [harshit@example.com](mailto:harshit@example.com)
 
 Thanks for visiting my profile! Have a great day! 😊
