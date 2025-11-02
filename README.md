@@ -1,91 +1,87 @@
+
+````markdown name=README.md url=https://github.com/harshit0019/harshit0019/blob/main/README.md
 ```md
-# Harshit Yadav — Data Analyst · Developer · Power BI Enthusiast 👋
+# Harshit Yadav — Data Alchemist 🧪 · Developer 💻 · Power BI Architect 📊
 
-I turn messy data into clear decisions and build interactive tools that make insights actionable. I blend data analysis, programming, and Power BI to create end-to-end analytics — from ETL and modeling to dashboards and deployable apps.
-
----
-
-✨ Quick snapshot
-- Role: Data Analyst | Software Developer  
-- Primary languages: Python, TypeScript  
-- Specialties: Data cleaning & transformation, exploratory & predictive analysis, interactive dashboards (Power BI & Streamlit), data visualization, automation
+I turn raw numbers into stories that people understand and act on. I love crafting clean data flows, expressive visualizations, and lightweight apps that let stakeholders explore insights themselves. Think of me as someone who builds the bridge between data and decisions — with code, models, and elegant dashboards.
 
 ---
 
-🧭 How I approach a problem
-1. Source & understand the data — ask the right questions.  
-2. Clean & transform — reliable pipelines (pandas / Power Query / ETL scripts).  
-3. Model & analyze — statistical summaries, features, lightweight ML.  
-4. Visualize & explain — Power BI reports, Streamlit dashboards, Plotly figures.  
-5. Deploy & automate — scheduled refreshes, simple apps, and reproducible scripts.
+🧱 The "Objects" I work with
+- Object: Data (📦)
+  - Raw logs, CSVs, SQL tables, Excel spreadsheets
+  - Operations: ingestion, validation, normalization, enrichment
+- Object: Pipeline (🔁)
+  - Tools: pandas, Power Query, custom ETL scripts
+  - Outcome: reproducible, incremental data refreshes
+- Object: Model (🧠)
+  - Analytics: aggregation, segmentation, basic predictive models
+  - Deliverables: features, KPI definitions, confidence notes
+- Object: Dashboard (🖼️)
+  - Platforms: Power BI (DAX & Data Model), Streamlit
+  - UX: stories, drill-throughs, bookmarks, and guided navigations
+- Object: App (⚙️)
+  - Lightweight web apps or scripts for automation, monitoring, or demos
 
 ---
 
-🛠️ Tools & Tech
-Python (pandas, numpy, scikit-learn) · Streamlit · Power BI (DAX, Power Query, Data Model) · Plotly / Matplotlib · SQL · TypeScript · React · Git · Excel
+🎨 A more creative snapshot — who I am
+- Role: Data Analyst · Analytics Engineer · Dashboard Designer  
+- Languages: Python, TypeScript  
+- Passion: turning ambiguity into metrics, and metrics into memorable visuals  
+- Favorite tasks: cleaning a tangled dataset, writing a crisp DAX measure, shipping an interactive report
 
 ---
 
-🔥 Highlighted projects
-
-- Personal Carbon Emission Calculator (Streamlit, Python)  
-  https://github.com/harshit0019/Personal-Carbon-Emission-Calculator  
-  Interactive app to estimate & visualize personal carbon footprint across transport, electricity, diet, and waste.
-
-- Carbon Emission Tracking System (Python)  
-  https://github.com/harshit0019/carbon-emission-tracking-system  
-  Scripts & notebooks for processing and analyzing emission datasets — focused on reproducible data workflows.
-
-- Car Analyzing Dashboard (dashboard / data analysis)  
-  https://github.com/harshit0019/Car-Analyzing-Dashboard  
-  Dashboard-centric repo for exploring vehicle datasets (visualization, KPI tracking).
-
-- SEO Tag Inspector (TypeScript)  
-  https://github.com/harshit0019/seo-tag-inspector  
-  A TypeScript-based tool for inspecting and validating SEO-related tags on web pages — useful for audits and automation.
-
-- Portfolio Website & Personal Site (TypeScript + frontend)  
-  https://github.com/harshit0019/portfoliowebsite  
-  https://github.com/harshit0019/harshityadav
-
-- Daily Python Practice & Fun Projects (Learning & fundamentals)  
-  https://github.com/harshit0019/daily-python-practise  
-  https://github.com/harshit0019/snake  
-  https://github.com/harshit0019/treasure-hunt
+🔭 How I typically craft a solution (play-by-play)
+1. Exploration object — quick EDA to map the shape of the data (pandas / SQL).  
+2. Sanitation object — fix types, missing values, and outliers; create safe pipelines.  
+3. Model object — compute measures, aggregations, and lightweight predictions.  
+4. Presentation object — design the dashboard story; prototype in Streamlit or Power BI.  
+5. Delivery object — document assumptions, add scheduled refresh notes, and hand off.
 
 ---
 
-📊 Power BI & Dashboards — what I deliver
-- Clean data models with star schema where applicable  
-- Calculated measures in DAX for robust KPIs  
-- Intuitive drill-through & slicer-driven navigation  
-- Design-focused visuals for stakeholder storytelling  
-- Automated refresh-ready datasets / notes for deployment
+🧰 Toolbelt (condensed)
+Python (pandas, numpy, scikit-learn), Power BI (DAX, Power Query, Data Modeling), Streamlit, Plotly / Matplotlib, SQL, TypeScript, React, Git, Excel
 
 ---
 
-📈 Example workflows I implement
-- Raw CSV / SQL → pandas / Power Query → cleaned dataset → feature engineering → model / aggregation → Streamlit app or Power BI report
-- Scheduled refresh (Power BI gateway) + lightweight API or static site for sharing
+✨ What I deliver for teams
+- Reusable ETL snippets and documented notebooks  
+- Scalable Power BI models with clear relationship diagrams  
+- DAX-first KPI definitions that stakeholders can trust  
+- Lightweight demos for stakeholder sign-off (Streamlit or static GIFs)  
+- Automated refresh playbook and deployment notes
 
 ---
 
-🧩 Want to see it live?
-I can add:
-- GIF previews or screenshots for each dashboard/app
-- Short walkthroughs (how the data flows, key DAX measures)
-- Badges (languages, top project, license) and quick install/run instructions per repo
+📦 Sample objects I can add to any repo (examples)
+- "data_pipeline.py" — reusable ingestion + cleaning functions  
+- "report_notes.md" — DAX snippets and KPI logic explained in plain English  
+- "demo.gif" — 10–20s walkthrough of key dashboard interactions  
+- "requirements.txt" + launch instructions for Streamlit demos
 
 ---
 
-📫 Contact & collaboration
+🔍 Accessibility & storytelling
+I design visuals that are read-first: titles, contextual subtitles, and a clear call-to-action. Colors and interactions prioritize clarity, accessibility, and stakeholder-focused workflows.
+
+---
+
+🛠 How to run my Python / Streamlit objects (quick)
+1. python -m venv .venv  
+2. source .venv/bin/activate  (macOS / Linux) or .venv\Scripts\activate (Windows)  
+3. pip install -r requirements.txt  
+4. streamlit run app.py  (for demos)
+
+For Power BI artifacts, I include model notes and recommended refresh settings in the repo's README.
+
+---
+
+📫 Let’s collaborate
 - GitHub: https://github.com/harshit0019  
-- Open to collaboration, feedback, and contributions — raise an issue or PR in any repo.
+- Open to mentoring, collaborating on dashboards, or helping convert analyses into production-ready reports.  
+- Want GIFs, DAX snippets, or a branch with this README added? Pick one and I’ll prepare it next.
 
----
-
-Thanks for visiting — explore the repos to see concrete examples of data work, dashboards, and small apps. If you want, I can:
-- Add screenshots/GIFs for the top 3 projects,
-- Add Power BI report notes (DAX snippets) in the dashboard repo,
-- Or push this README to the profile repo for you.
-```
+Thanks for stopping by — explore the repos for hands-on examples of pipelines, notebooks, and dashboards.
