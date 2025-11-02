@@ -119,17 +119,7 @@ I'm always interested in:
 - **Open-source contributions** in the analytics space
 - **Consulting opportunities** for Power BI implementations
 - **Knowledge sharing** through blogging and community engagement
-
----
-
-## 📫 Get In Touch
-
-- 💼 **LinkedIn**: [linkedin.com/in/yourprofile](your-linkedin)
-- 📧 **Email**: your.email@domain.com
-- 🌐 **Portfolio**: [yourportfolio.com](your-portfolio)
-- 📝 **Blog**: [yourblog.com](your-blog)
-- 🐦 **Twitter**: [@yourhandle](your-twitter)
-
+  
 ---
 
 ## 📊 Quick Stats
