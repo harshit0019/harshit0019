@@ -1,79 +1,162 @@
-<h1 align="center">🚀 Harshit Yadav</h1>
-<p align="center"><b>Data Analyst · Prompt Engineer · Programmer · Vibe Coder · Content Creator · Power BI Developer</b></p>
+# Hi, I'm Harshit Yadav 👋
 
-<p align="center">
-I don't just analyze data —  
-I <b>shape it, sculpt it, animate it, and make it talk</b>.  
-Dashboards like 3D cockpits. Scripts like spells.  
-Turning ambiguity ☁️ into clarity ✨ — that's the craft.
-</p>
+**Data Analyst | Power BI Developer | Python Enthusiast**
 
----
+I transform complex data into actionable insights through interactive dashboards, advanced analytics, and automation. With expertise in Power BI, Python, and SQL, I help organizations make data-driven decisions that drive real business impact.
 
-## 🧊 My 3D Object Universe
-
-| Object | Reality it controls | Tools |
-|---|---|---|
-🟦 **Data Cube** | Raw data layers & dimensions | Excel, SQL, APIs, Logs  
-⚙️ **ETL Engine** | Cleansing + feature movement | Python, Pandas, Power Query  
-🧠 **Insight Core** | Metrics, DAX models, ML | DAX, scikit-learn, Stats  
-🕹️ **Control Dashboard** | Decision cockpit | Power BI, Streamlit, Plotly  
-🪄 **Prompt Sphere** | AI automation & reasoning | GPT, Prompt Engineering  
-🎛️ **Automation Panel** | Auto-refresh & pipelines | GitHub Actions, Scripts  
-
-**Goal:** Make data feel alive. Make decisions obvious.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](your-linkedin-url)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:your.email@domain.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-4285F4?style=flat&logo=google-chrome&logoColor=white)](your-portfolio-url)
 
 ---
 
-## 🎮 Build Philosophy
-- Sculpt datasets like 3D objects  
-- Design dashboards like spaceship HUDs  
-- Engineer prompts like magic spells  
-- Code with rhythm (📈 + 🎧 + ⚡ vibe)  
+## 🎯 What I Do
 
-> Data isn't static — it's a universe. I render it.
-
----
-
-## 🛠 Tech Core
-- **Python** (pandas, numpy, scikit-learn)  
-- **Power BI** (DAX, data modeling, UX storytelling)  
-- **SQL • Streamlit • Plotly • Excel**  
-- **React + TypeScript**
-- **Prompt Engineering**
+- **Business Intelligence**: Design and develop Power BI dashboards that turn data into strategic insights
+- **Data Analysis**: Extract meaningful patterns from complex datasets using Python and SQL
+- **Analytics Automation**: Build ETL pipelines and automated reporting solutions
+- **Data Storytelling**: Create compelling visualizations that communicate insights clearly to stakeholders
 
 ---
 
-## 🧩 Blueprint Flow
+## 🛠️ Technical Skills
 
-**Acquire → Audit → Clean → Model → Visualize → Narrate → Automate → Celebrate 🚀**
+**Analytics & Visualization**
+```
+Power BI • DAX • Power Query (M) • Tableau • Excel (Advanced)
+```
+
+**Programming & Data Science**
+```
+Python • SQL • Pandas • NumPy • Scikit-learn • Matplotlib • Plotly
+```
+
+**Databases & Tools**
+```
+PostgreSQL • MySQL • SQL Server • Git • Jupyter • VS Code
+```
+
+**Additional Expertise**
+```
+Data Modeling • ETL/ELT • Statistical Analysis • A/B Testing • KPI Development
+API Integration • Web Scraping • Prompt Engineering • Documentation
+```
+
+## 📈 GitHub Analytics
+
+![Harshit's GitHub Stats](https://github-readme-stats.vercel.app/api?username=harshit0019&show_icons=true&theme=default&hide_border=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=harshit0019&layout=compact&theme=default&hide_border=true)
 
 ---
 
-## 📦 Reusable Bricks
-| File | Purpose |
-|---|---|
-`data_pipeline.py` | ingestion + cleaning engine  
-`report_notes.md` | KPI logic + DAX storytelling  
-`demo.gif` | dashboard fly-through  
-`requirements.txt` | reproducible setup  
-Streamlit mini-apps | proof-of-insight UI demos  
+## 📚 Recent Work & Learning
+
+🔭 **Currently Working On**
+- Building a custom Power BI custom visual library
+- Developing an AI-assisted data analysis tool using LangChain
+- Contributing to open-source analytics projects
+
+🌱 **Currently Learning**
+- Advanced DAX patterns and optimization techniques
+- Azure Data Factory and cloud-based analytics
+- Real-time streaming analytics with Python
+
+📝 **Writing About**
+- Power BI best practices and DAX tricks
+- Python automation for data analysts
+- Data visualization principles
 
 ---
 
-## 🎯 Values
-✨ Clarity > Complexity  
-📈 Metrics tell stories  
-🎨 Visuals guide decisions  
-🧠 Data = narrative + math  
-🧬 Insight is a design discipline  
+## 🎓 Certifications & Education
+
+- **Microsoft Certified: Data Analyst Associate** (Power BI)
+- **Microsoft Certified: Azure Data Fundamentals**
+- **Python for Data Science** - Coursera/DataCamp
+- **Advanced SQL for Data Analysis** - [Platform]
+- **Bachelor's in [Your Field]** - [University Name]
 
 ---
 
-## ▶️ Run My Apps
-```bash
-python -m venv .venv  
-source .venv/bin/activate    # Mac/Linux  
-.venv\Scripts\activate        # Windows  
-pip install -r requirements.txt  
-streamlit run app.py  
+## 💻 Code Example
+
+Here's a sample of my work - a Python function for automated data quality checks:
+```python
+import pandas as pd
+from typing import Dict, List
+
+def data_quality_report(df: pd.DataFrame) -> Dict[str, any]:
+    """
+    Generate comprehensive data quality metrics
+    """
+    report = {
+        'total_rows': len(df),
+        'total_columns': len(df.columns),
+        'missing_values': df.isnull().sum().to_dict(),
+        'missing_percentage': (df.isnull().sum() / len(df) * 100).to_dict(),
+        'duplicates': df.duplicated().sum(),
+        'data_types': df.dtypes.to_dict(),
+        'memory_usage': f"{df.memory_usage(deep=True).sum() / 1024**2:.2f} MB"
+    }
+    
+    # Identify columns with high missing rates
+    high_missing = {k: v for k, v in report['missing_percentage'].items() if v > 10}
+    report['high_missing_columns'] = high_missing
+    
+    return report
+
+# Usage
+quality_metrics = data_quality_report(your_dataframe)
+```
+
+---
+
+## 🤝 Let's Collaborate
+
+I'm always interested in:
+- **Data analytics projects** that create business value
+- **Open-source contributions** in the analytics space
+- **Consulting opportunities** for Power BI implementations
+- **Knowledge sharing** through blogging and community engagement
+
+---
+
+## 📫 Get In Touch
+
+- 💼 **LinkedIn**: [linkedin.com/in/yourprofile](your-linkedin)
+- 📧 **Email**: your.email@domain.com
+- 🌐 **Portfolio**: [yourportfolio.com](your-portfolio)
+- 📝 **Blog**: [yourblog.com](your-blog)
+- 🐦 **Twitter**: [@yourhandle](your-twitter)
+
+---
+
+## 📊 Quick Stats
+```javascript
+const harshit = {
+    code: ["Python", "SQL", "DAX", "M", "JavaScript"],
+    tools: {
+        bi: ["Power BI", "Tableau", "Excel"],
+        dataScience: ["Pandas", "NumPy", "Scikit-learn", "Matplotlib"],
+        databases: ["SQL Server", "PostgreSQL", "MySQL"],
+        cloud: ["Azure", "Power Platform"],
+        other: ["Git", "Jupyter", "Streamlit", "VS Code"]
+    },
+    focus: "Turning data into decisions",
+    location: "India",
+    availability: "Open to opportunities"
+};
+```
+
+---
+
+<div align="center">
+
+**💡 "Data is the new oil, but analytics is the refinery."**
+
+![Profile Views](https://komarev.com/ghpvc/?username=harshit0019&color=0e75b6&style=flat)
+
+⭐️ From [harshit0019](https://github.com/harshit0019)
+
+</div>
